@@ -218,7 +218,6 @@
 
             foreach($meses as $indice => $mes){
                 if($indice == $mesAtual->format('m')){
-                    //$mes = $mesAtual->format('m');
                     echo "<b>".$mes."</b>" . "<br>";
                 }else {
                     echo $mes . "<br>";
